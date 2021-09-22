@@ -1,0 +1,75 @@
+.user-root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.sign-title {
+    z-index: 10;
+    height: fit-content;
+    width: fit-content;
+    font-size: min(16vw, 8vh);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #00000055;
+    margin-top: 10vh;
+}
+
+.icon-wrapper {
+    display: flex;
+    top: 30vh;
+    transform: translatey(-50%);
+    background-image: url(https://previews.123rf.com/images/dstarky/dstarky1701/dstarky170101334/69424319-croissant-icon-or-logo-in-modern-line-style-high-quality-black-outline-pictogram-for-web-site-design.jpg);
+    background-size: cover;
+}
+
+.login-box{
+    z-index: 10;
+    /* margin-top: 25vh; */
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inputs{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    width: min(80vw, 40vh);
+    height: min(20vw, 10vh);
+    background-color: #00000055;
+    border-radius: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    height: fit-content;
+    width: fit-content;
+    font-size: min(5vw, 3vh);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #FFFFFFCC;
+    margin: 0;
+}
+
+.login-buttons{
+    margin-top: 10vh;
+    justify-self: center;
+    width: min(80vw, 40vh);
+    height: min(20vw, 10vh);
+    background-color: #00000055;
+    border-radius: 1vh;
+    border-width: 0;
+    font-size: min(5vw, 3vh);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #FFFFFFCC;
+}
